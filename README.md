@@ -22,8 +22,7 @@
 
 ![image-20200211093945347.png](https://suremotoo.coding.net/p/qingdao-appointment-task-guide/d/qingdao-appointment-task-guide/git/raw/master/image-20200211093945347.png)
 
-
-<h3><div style="color: red;">这个时候点击<b>「立即提交」</b>，是没有任何反应的！一定要将页面往下滑，滑到能看到整个页面信息，就是第四步图的样子，这个时候点击才能提交，这里可是个大坑，当你反应过来时，早就没货了</div></h3>
+<h3><div style="color: red;">这个时候点击<b>「立即提交」</b>，是没有任何反应的！一定要将页面往下滑，滑到能看到整个页面信息，姓名、电话、身份证、预约药店信息都要能看到，就是第四步图的样子，这个时候点击才能提交，这里可是个大坑，当你反应过来时，早就没货了</div></h3>
 
 提交后，再点击如下图**「提交」**，就可以了
 
@@ -37,7 +36,11 @@
 
 ![FloatingWindow.png](https://suremotoo.coding.net/p/qingdao-appointment-task-guide/d/qingdao-appointment-task-guide/git/raw/master/FloatingWindow.gif)
 
-以上图是以**药店列表页面**为例，如果在 **填写预约信息提交页面** 使用浮窗功能，这样操作的话，今天没抢到没关系，第二天开抢的时候，可以通过浮窗直接进入到预约口罩信息提交页面，你只需要在 8.29 分 点击图片验证码，刷新一下最新的验证码，并输入验证码，在8点30分5秒再提交，基本就成功了，也别忘了**注意前面说的第一个重点**
+以上图是以**药店列表页面**为例，如果在 **填写预约信息提交页面** 使用浮窗功能，这样操作的话，今天没抢到没关系，第二天开抢的时候，可以通过浮窗直接进入到预约口罩信息提交页面，你只需要在 8.29 分 点击图片验证码，刷新一下最新的验证码，并输入验证码，在 8 点 30 分 再提交（最好再延迟五六秒再提交），基本就成功了，也别忘了**注意前面说的第一个重点**
+
+如果滑动浮窗不好用，可以用以下方式：
+
+![浮窗方式2](https://suremotoo.coding.net/p/qingdao-appointment-task-guide/d/qingdao-appointment-task-guide/git/raw/master/FloatingWindow2.gif)
 
 简单总结一下就是：
 
