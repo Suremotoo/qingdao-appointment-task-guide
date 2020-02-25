@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "aea34cf5-57c8-4f07-b94a-a51edaf4f358",
+		"name": "青岛政务网-口罩预约",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "更新验证码",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://kzyynew.qingdao.gov.cn:81/kz/captcha/?{{$timestamp}}",
+					"protocol": "http",
+					"host": [
+						"kzyynew",
+						"qingdao",
+						"gov",
+						"cn"
+					],
+					"port": "81",
+					"path": [
+						"kz",
+						"captcha",
+						""
+					],
+					"query": [
+						{
+							"key": "{{$timestamp}}",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "获取区域及街道信息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://kzyynew.qingdao.gov.cn:81/kz/getAreaList",
+					"protocol": "http",
+					"host": [
+						"kzyynew",
+						"qingdao",
+						"gov",
+						"cn"
+					],
+					"port": "81",
+					"path": [
+						"kz",
+						"getAreaList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "邮政快递预约-提交信息",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"姓名\",\n    \"mobile\": \"手机号\",\n    \"code\": \"身份证号\",\n    \"area\": \"市北区\",\n    \"street\": \"镇江路街道\",\n    \"address\": \"延吉路38号中国青岛人力资源市场\",\n    \"capval\": \"t7ac\",\n    \"ordertype\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://kzyynew.qingdao.gov.cn:81/kz/addYdorder?capval=t7ac",
+					"protocol": "http",
+					"host": [
+						"kzyynew",
+						"qingdao",
+						"gov",
+						"cn"
+					],
+					"port": "81",
+					"path": [
+						"kz",
+						"addYdorder"
+					],
+					"query": [
+						{
+							"key": "capval",
+							"value": "t7ac"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "顺丰快递预约-提交信息",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"姓名\",\n    \"mobile\": \"手机号\",\n    \"code\": \"身份证号\",\n    \"area\": \"市北区\",\n    \"street\": \"镇江路街道\",\n    \"address\": \"延吉路38号中国青岛人力资源市场\",\n    \"capval\": \"tawt\",\n    \"ordertype\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://kzyynew.qingdao.gov.cn:81/kz/addSforder?capval=tawt",
+					"protocol": "http",
+					"host": [
+						"kzyynew",
+						"qingdao",
+						"gov",
+						"cn"
+					],
+					"port": "81",
+					"path": [
+						"kz",
+						"addSforder"
+					],
+					"query": [
+						{
+							"key": "capval",
+							"value": "tawt"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
