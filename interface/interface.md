@@ -1,12 +1,14 @@
+![reservation](https://notes.suremotoo.site/upload/2020/2/reservation-370df40074f54e6d8588e98fa4eb0069.png)
+
 ## 青岛政务网-口罩预约-接口形式
 
 ### 下载接口文件信息
 
-[下载方式 1-json 文件](https://suremotoo.coding.net/p/qingdao-appointment-task-guide/d/qingdao-appointment-task-guide/git/raw/master/interface/青岛政务网-口罩预约.postman_collection.json)
+[下载方式 1-json 文件](https://notes.suremotoo.site/upload/2020/2/%E9%9D%92%E5%B2%9B%E6%94%BF%E5%8A%A1%E7%BD%91-%E5%8F%A3%E7%BD%A9%E9%A2%84%E7%BA%A6.postman_collection-6747feed973348c094d7dacf08c298fe.json)
 
 或
 
-[下载方式 2-解压包](https://suremotoo.coding.net/p/qingdao-appointment-task-guide/d/qingdao-appointment-task-guide/git/raw/master/interface/%E8%A7%A3%E5%8E%8B%E6%AD%A4%E6%96%87%E4%BB%B6.zip)
+[下载方式 2-解压包](https://notes.suremotoo.site/upload/2020/2/%E9%9D%92%E5%B2%9B%E6%94%BF%E5%8A%A1%E7%BD%91-%E5%8F%A3%E7%BD%A9%E9%A2%84%E7%BA%A6.postman_collection.json-389497fb2c494f5f8802b66c811eb489.zip)
 
 ### 导入接口信息
 

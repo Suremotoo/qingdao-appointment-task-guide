@@ -147,6 +147,55 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "查询我的预约订单",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mobile\": \"手机号\",\n    \"code\": \"身份证后 8 位\",\n    \"capval\": \"验证码\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://kzyynew.qingdao.gov.cn:81/kz/myYdorder?capval=xxed",
+					"protocol": "http",
+					"host": [
+						"kzyynew",
+						"qingdao",
+						"gov",
+						"cn"
+					],
+					"port": "81",
+					"path": [
+						"kz",
+						"myYdorder"
+					],
+					"query": [
+						{
+							"key": "capval",
+							"value": "xxed"
+						}
+					]
+				},
+				"description": "capval 填写验证码，请求地址最后的 capval = 也要填写验证码，两个需要保持一致；\n验证码可调用 **更新验证码** 服务获取"
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
