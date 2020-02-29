@@ -1,5 +1,5 @@
 由于青岛政务网于 2020 年 2 月 25 日起，停用现场领取口罩，改用快递形式，以下教程可能不适用，但 **浮窗** 方式仍可参考。
-另外可使用最新接口预约形式教程，http://qingdao.mask.suremotoo.site/interface/interface.html
+另外可使用最新接口预约形式教程，https://notes.suremotoo.site/archives/qingdao-mask-api-by-express
 
 <h4><div style="color: red;">一定要用手机微信，手机微信，手机微信！</div></h4>
 
